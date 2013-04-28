@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Created by Marc Pacheco Garcia on 28/4/13.            
+  http://marcpacheco.me                                 
+  Copyright (c) 2013, All rights reserved.              
+  App icon and Images are property of Institut Marina
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tablelayout_selector"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imv_custom_grid"
+        android:layout_marginTop="16dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/txv_custom_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:layout_gravity="fill_vertical"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FF666666"
+        android:textIsSelectable="false" />
+
+</LinearLayout>

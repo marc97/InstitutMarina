@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Created by Marc Pacheco Garcia on 28/4/13.            
+  http://marcpacheco.me                                 
+  Copyright (c) 2013, All rights reserved.              
+  App icon and Images are property of Institut Marina
+-->
+<resources>
+    <string name="app_name">Institut Marina</string>
+    <string name="action_settings">Ajustos</string>
+    <string name="action_open_url_at_browser">Obre al navegador</string>
+    <string name="progressdialog_xml_rss_downloading_title">Carregant&#8230;</string>
+    <string name="progressdialog_xml_rss_downloading_message">S\'està baixant l\'arxiu XML D\'RSS dels nostres servidors</string>
+    <string name="rss_activity_item_detail_title">Detall de la notícia</string>
+    <string name="update_rss_listview">Actualitza</string>
+    <string name="current_version">Versió Actual:</string>
+    <string name="register_changes">Registre de canvis</string>
+    <string name="register_changes_alertdialog">Registre de canvis:</string>
+    <string name="about">Sobre</string>
+    <string name="action_language">Idioma</string>
+    <string name="RSSViewActivity_title">Últimes notícies</string>
+    <string name="alertdialog_select_language">Selecciona l\'idioma:</string>
+    <string name="email_contact_revista">Envia\'ns un missatge</string>
+    
+    <!-- MAIN BUTTONS -->
+    <string name="button_marina_rss">Últimes notícies</string>
+    <string name="button_marina_revista_rss">ANIRAM, La nostra revista</string>
+    <string name="button_marina_center_plane">Plànol del centre</string>
+    
+    <string name="refresh_to_see_the_content">Actualitza per poder veure el contingut!</string>
+    
+    <!-- PLANE -->
+    <string name="plane_activity_title">Plànol del centre</string>
+    
+    <!-- CONTACT -->
+    <string name="contact_activity_title">CONTACTE</string>
+    <string name="telephone">Telèfon:</string>
+    <string name="address">Adreça:</string>
+    <string name="email">Correu:</string>
+   
+    <!-- ABOUT -->
+    <string name="application_developed_by">·Aplicació desenvolupada per:</string>
+    <string name="developer_name">Marc Pacheco García</string>
+    <string name="developer_website">http://marcpacheco.me</string>
+    <string name="info_for_developers">·Informació per a desenvolupadors:</string>
+    <string name="code_avaliable_in_github">El codi de l\'aplicació està disponible en GitHub:</string>
+    <string name="url_repository_github">http://github.com/marc97/InsMarina</string>
+    
+    <!-- TOASTS -->
+    <string name="toast_check_your_internet_connection">No hi ha connexió a internet! Comprova-la</string>
+    <string name="toast_webview_error_ocurred">"Ho sentim, ha succeït un error en carregar la pàgina!"</string>
+    
+    <string name="webview_loading_title">Carregant&#8230;</string>
+    
+    <string-array name="main_tablelayout_name_items">
+        <item>Lloc Web</item>
+        <item>Moodle</item>
+        <item>Contacte</item>
+        <item>Facebook</item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

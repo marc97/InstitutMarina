@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Created by Marc Pacheco Garcia on 28/4/13.            
+  http://marcpacheco.me                                 
+  Copyright (c) 2013, All rights reserved.              
+  App icon and Images are property of Institut Marina
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/update_rss_listview"
+        android:icon="@drawable/navigation_refresh"
+        android:title="@string/update_rss_listview"
+        android:showAsAction="ifRoom"/>
+     <item android:id="@+id/btn_email_contact_revista"
+        android:title="@string/email_contact_revista"/>
+    <item android:id="@+id/btn_revista_open_into_a_browser"
+        android:title="@string/action_open_url_at_browser"/>
+</menu>

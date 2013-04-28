@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Created by Marc Pacheco Garcia on 28/4/13.            
+  http://marcpacheco.me                                 
+  Copyright (c) 2013, All rights reserved.              
+  App icon and Images are property of Institut Marina
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingTop="12dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="12dp" >
+
+    <TextView
+        android:id="@+id/txv_rss_item_title"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#FF0066AA"
+        android:textSize="18sp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/txv_rss_item_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txv_rss_item_title"
+        android:layout_below="@+id/txv_rss_item_title"
+        android:layout_marginTop="2dp"
+        android:textColor="#FF666666"
+        android:textSize="12sp"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:alpha=".9"
+        android:contentDescription="View detail item"
+        android:src="@drawable/navigation_next_item" />
+</RelativeLayout>
