@@ -5,7 +5,7 @@ This app is available in Google Play, you can download it here: [https://play.go
 
 I'll be happy if you take a moment to rate the app, thank you!
 
-<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/ins_marina_imagen_destacada_google_play.png" width="300px">
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/ins_marina_imagen_destacada_google_play.png">
 
 ## License
 + [Apache Version 2.0](LICENSE)
