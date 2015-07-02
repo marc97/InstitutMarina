@@ -5,25 +5,25 @@ This app is available in Google Play, you can download it here: [https://play.go
 
 I'll be happy if you take a moment to rate the app, thank you!
 
-![](/readme-images/ins_marina_imagen_destacada_google_play.png)
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/ins_marina_imagen_destacada_google_play.png" width="300px">
 
 ## License
 + [Apache Version 2.0](LICENSE)
 
 ## The App
 
-![](/readme-images/menu_drawer_framed.png =300x)
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/menu_drawer_framed.png" width="300px">
 
 ### Explore the posts of the our digital newspaper Aniram
 
-![](/readme-images/blogger_posts_framed.png =300x) ![](/readme-images/blogger_post_detail_framed.png =300x)
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/blogger_posts_framed.png" width="300px"> <img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/blogger_post_detail_framed.png" width="300px">
 
 ### Watch all the photos that we have taken of the activities realized
 
-![](/readme-images/picasa_albums_framed.png =300x) ![](/readme-images/picasa_photos_framed.png =300x)
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/picasa_albums_framed.png" width="300px"> <img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/picasa_photos_framed.png" width="300px">
 
 ### Search news
 
-![](/readme-images/search_institut_tab_framed.png =300x)
+<img src="https://raw.githubusercontent.com/marc97/InstitutMarina/master/readme-images/search_institut_tab_framed.png" width="300px">
 
 ### And more!
