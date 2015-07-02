@@ -1,0 +1,43 @@
+App:                  Institut Marina (v2)
+Developer:            Marc Pacheco Garcia 
+Developer website:    http://marcpacheco.me
+Last revision date:   02/07/2015
+Document url:         https://raw.githubusercontent.com/marc97/InstitutMarina/master/institut_marina_policy.txt
+
+PRIVACY
+===================
+The application does not store or share personal information of any kind.
+
+POLICY
+===================
+The application complies with the full approval by the Institut Marina as you can see here: 
+http://www.institutmarina.cat/344-app-institut.
+http://revistadelmarina.blogspot.com.es/2013/05/ja-us-heu-installat-al-mobil-lapp.html
+
+For display photos is being used the Picasa API (Google).
+For the digital newspaper Aniram posts is being used Blogger API (Google).
+
+LICENSE
+===================
+This app has been released under the Apache License V2.
+https://github.com/marc97/InstitutMarina/blob/master/LICENSE
+
+OPEN SOURCE
+===================
+You can find the source code here: https://github.com/marc97/InstitutMarina.
+
+OPEN SOURCE USED IN THE APP
+===================
+The development of the app have been possible thanks to the next software released under Apache License V2.
+
++ OkHttp                                http://square.github.io/okhttp
++ Universal Image Loader                https://github.com/nostra13/Android-Universal-Image-Loader
++ PhotoView                             https://github.com/chrisbanes/PhotoView
++ Jsoup                                 http://jsoup.org
++ Google Api Client Library For Java    https://developers.google.com/api-client-library/java/
+
+IMAGES AND ICONS
+===================
+All the icons have been obtained from the website www.flaticon.com and are property of them.
+The app icon is propery of Institut Marina.
+
