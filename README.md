@@ -1,25 +1,29 @@
 # Institut Marina
 Oficial App of the Institute Marina of La Llagosta, Barcelona.
 
-![alt tag](/readme-images/ins_marina_imagen_destacada_google_play.png)
+This app is available in Google Play, you can download it here: [https://play.google.com/store/apps/details?id=cat.institutmarina.insmarina](https://play.google.com/store/apps/details?id=cat.institutmarina.insmarina)
+
+I'll be happy if you take a moment to rate the app, thank you!
+
+![](/readme-images/ins_marina_imagen_destacada_google_play.png)
 
 ## License
 + [Apache Version 2.0](LICENSE)
 
 ## The App
 
-![alt tag](/readme-images/menu_drawer_framed.png)
+![](/readme-images/menu_drawer_framed.png =300x)
 
 ### Explore the posts of the our digital newspaper Aniram
 
-![alt tag](/readme-images/blogger_posts_framed.png) ![alt tag](/readme-images/blogger_post_detail_framed.png)
+![](/readme-images/blogger_posts_framed.png =300x) ![](/readme-images/blogger_post_detail_framed.png =300x)
 
 ### Watch all the photos that we have taken of the activities realized
 
-![alt tag](/readme-images/picasa_albums_framed.png) ![alt tag](/readme-images/picasa_photos_framed.png)
+![](/readme-images/picasa_albums_framed.png =300x) ![](/readme-images/picasa_photos_framed.png =300x)
 
 ### Search news
 
-![alt tag](/readme-images/search_institut_tab_framed.png)
+![](/readme-images/search_institut_tab_framed.png =300x)
 
 ### And more!
