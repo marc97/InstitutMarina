@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="16dp">
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título de prueba"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/text_color_primary"
+        app:typeface="@string/font_bold"
+        android:id="@+id/txv_item_search_title" />
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viatges"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_secondary"
+        app:typeface="@string/font_normal"
+        android:id="@+id/txv_item_search_category" />
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/text_color_primary"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="Descripción breve del contenido a mostrar."
+        app:typeface="@string/font_normal"
+        android:id="@+id/txv_item_search_summary" />
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textSize="13sp"
+        android:textColor="@color/text_color_primary"
+        app:typeface="@string/font_normal"
+        android:text="Creat el 20 de novembre de 2014"
+        android:id="@+id/txv_item_search_date" />
+
+
+</LinearLayout>

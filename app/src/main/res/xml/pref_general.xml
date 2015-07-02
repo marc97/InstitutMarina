@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_general">
+        <CheckBoxPreference android:title="@string/settings_enable_photos_cache"
+            android:key="pref_app_enable_photos_cache"
+            android:summaryOn="@string/settings_cache_enabled_summary"
+            android:summaryOff="@string/settings_cache_disabled_summary"/>
+        <Preference android:title="@string/settings_delete_cache"
+            android:key="pref_delete_app_cache"/>
+        <Preference android:title="@string/settings_totally_memory_cache_used"
+            android:key="pref_app_cache_used"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_info">
+        <Preference android:title="@string/settings_rate_app">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://play.google.com/store/apps/details?id=cat.institutmarina.insmarina" />
+        </Preference>
+       <!-- <Preference android:title="@string/settings_changelog"
+            android:key="pref_app_changelog"/>-->
+        <Preference android:title="@string/settings_libraries"
+            android:key="pref_app_libraries"/>
+        <Preference android:title="@string/settings_developer"
+            android:summary="@string/settings_summary_developer">
+            <intent android:action="android.intent.action.VIEW" android:data="http://marcpacheco.me" />
+        </Preference>
+        <Preference android:title="@string/settings_open_source_code"
+            android:summary="@string/settings_open_source_code_summary">
+            <intent android:action="android.intent.action.VIEW" android:data="https://github.com/marc97/InsMarina" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_version">
+        <Preference android:title="@string/app_name"
+            android:key="pref_app_version"
+            android:summary="@string/settings_enjoy_the_app"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

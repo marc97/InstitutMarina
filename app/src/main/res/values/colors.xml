@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="marina_blue">#ff00c9cb</color>
+    <color name="white">#ffffffff</color>
+    <color name="item_presed_transparent_white">#5fffffff</color>
+    <color name="photo_placeholder_grey">#ffdedede</color>
+    <color name="grey">#ffdedede</color>
+    <color name="toolbar_photo_detail">#96000000</color>
+    <color name="item_drawer_clickable_pressed">#fff2f4f6</color>
+    <color name="item_blogger_post_pressed">#fff2f4f6</color>
+    <color name="divider_listview">#ffdadada</color>
+
+    <color name="toolbar_color">#fff</color>
+    <color name="item_pressed">#fff2f4f6</color>
+    <color name="divider_color">#edf0f2</color>
+
+    <color name="icons_color">#8495a1</color>
+    <color name="text_color_primary">#81929f</color>
+    <color name="text_color_secondary">#aebcc7</color>
+
+    <color name="accent_color_blue">#ff59b5de</color>
+
+    <color name="lightBlue">#03a9f4</color>
+    <!-- #03a9f4, #ff5d759b, #ff569de0 -->
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageLoading">
+        <attr name="page_loading_layout" format="reference" />
+        <attr name="error_layout" format="reference" />
+    </declare-styleable>
+</resources>

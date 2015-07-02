@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_extra_thin">fonts/TitilliumText25L-1wt.ttf</string>
+    <string name="font_thin">fonts/TitilliumText25L-250wt.ttf</string>
+    <string name="font_normal">fonts/TitilliumText25L-400wt.ttf</string>
+    <string name="font_semi_bold">fonts/TitilliumText25L-600wt.ttf</string>
+    <string name="font_bold">fonts/TitilliumText25L-800wt.ttf</string>
+    <string name="font_extra_bold">fonts/TitilliumText25L-999wt.ttf</string>
+</resources>

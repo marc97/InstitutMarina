@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_actionbar"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_section_marina"
+            android:textColor="@color/text_color_primary"
+            android:layout_weight=".5"
+            android:background="@drawable/selector_btn_sections_search"
+            android:id="@+id/btn_activity_search_marina" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_section_aniram"
+            android:background="@drawable/selector_btn_sections_search"
+            android:textColor="@color/text_color_primary"
+            android:layout_weight=".5"
+            android:id="@+id/btn_activity_search_aniram" />
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/view_pager_activity_search" />
+    <!--
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="cat.institutmarina.insmarina.fragments.SearchFragment"
+        android:id="@+id/fragment_activity_search"
+        android:layout_gravity="center_horizontal" /> -->
+</LinearLayout>

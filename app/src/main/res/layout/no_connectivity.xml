@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="60dp" android:background="#ffff6f74"
+    android:id="@+id/no_connectivity">
+
+        <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffffff"
+            android:text="No es poden carregar les dades. Comprova la connexió"
+            android:paddingTop="8dp" android:paddingBottom="8dp"
+            android:paddingLeft="12dp" android:paddingRight="12dp"
+            app:typeface="@string/font_normal"
+            android:id="@+id/txv_tip"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/txv_tip_refresh"
+            android:layout_toStartOf="@+id/txv_tip_refresh"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true" />
+
+        <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff5459"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:text="Actualitza"
+            android:textColor="@color/white"
+            android:id="@+id/txv_tip_refresh"
+            app:typeface="@string/font_bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

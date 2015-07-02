@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cat.institutmarina.insmarina.ui.widget.PageLoading
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/page_loading"
+        app:page_loading_layout="@layout/page_loading"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_layout">
+
+    <cat.institutmarina.insmarina.ui.ObservableWebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wb_fragment_blogger_post_detail" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

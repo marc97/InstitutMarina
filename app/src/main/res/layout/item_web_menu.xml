@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="24dp"
+    android:paddingBottom="24dp"
+    android:layout_height="match_parent">
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informació a un click"
+        app:typeface="@string/font_semi_bold"
+        android:textColor="@color/text_color_primary"
+        android:textSize="18sp"
+        android:id="@+id/txv_item_web_menu" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_thin_arrow_right"
+        android:id="@+id/imv_item_web_menu_arrow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

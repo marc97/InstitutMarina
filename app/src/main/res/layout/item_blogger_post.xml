@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="12dp" android:paddingBottom="12dp" android:paddingLeft="12dp" android:paddingRight="12dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="@color/photo_placeholder_grey"
+        android:id="@+id/imv_item_blogger_post_image" />
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_primary"
+        android:textSize="16sp"
+        android:id="@+id/txv_item_blogger_post_title"
+        android:layout_gravity="left|center"
+        android:layout_alignTop="@+id/imv_item_blogger_post_image"
+        android:layout_toRightOf="@+id/imv_item_blogger_post_image"
+        android:layout_toEndOf="@+id/imv_item_blogger_post_image"
+        android:layout_marginLeft="12dp"
+        app:typeface="@string/font_bold"/>
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="14sp"
+        android:textColor="@color/text_color_secondary"
+        android:id="@+id/txv_item_blogger_post_summary"
+        android:maxLines="2"
+        android:layout_below="@+id/txv_item_blogger_post_title"
+        android:layout_alignLeft="@+id/txv_item_blogger_post_title"
+        android:layout_alignStart="@+id/txv_item_blogger_post_title"
+        app:typeface="@string/font_bold"/>
+
+    <cat.institutmarina.insmarina.ui.widget.TintableImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/txv_item_blogger_post_summary"
+        android:layout_alignLeft="@+id/txv_item_blogger_post_summary"
+        android:layout_alignStart="@+id/txv_item_blogger_post_summary"
+        android:src="@drawable/clock_outline"
+        android:layout_marginTop="6dp"
+        app:tint="@color/icons_color"/>
+
+    <cat.institutmarina.insmarina.ui.widget.TintableImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:src="@drawable/pricetag_outline"
+        android:layout_marginTop="2dp"
+        app:tint="@color/icons_color"/>
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/5/2014"
+        android:textColor="@color/text_color_secondary"
+        android:id="@+id/txv_item_blogger_post_date"
+        android:textSize="13sp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginTop="2dp"
+        app:typeface="@string/font_bold"/>
+
+    <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equip de redacció, Opinió, Entrevistes"
+        android:textColor="@color/text_color_secondary"
+        android:textSize="13sp"
+        android:id="@+id/txv_item_blogger_post_labels"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/txv_item_blogger_post_date"
+        android:layout_alignStart="@+id/txv_item_blogger_post_date"
+        app:typeface="@string/font_bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nav_menu">Menú</string>
+    <string name="app_name">Institut Marina</string>
+    <string name="nav_aniram">Revista Aniram</string>
+    <string name="nav_contact">Contacte</string>
+    <string name="nav_missings">Faltes d\'assistència</string>
+    <string name="nav_facebook">Facebook</string>
+    <string name="nav_webpage">Lloc Web</string>
+    <string name="nav_moodle">Moodle</string>
+    <string name="nav_photos">Fotos</string>
+    <string name="nav_settings">Ajustos</string>
+    <string name="photos">fotos</string>
+
+    <!-- Search -->
+    <string name="search_no_results">No s\'ha trobat cap resultat.</string>
+    <string name="search_check_spelling">Revisa l\'ortografia o prova una cerca diferent.\n La paraula a cercar ha de contenir un mínim de 3 lletres.</string>
+    <string name="search_section_marina">Institut</string>
+    <string name="search_section_aniram">Aniram</string>
+
+    <!-- Menu -->
+    <string name="menu_open_url_browser">Obre al navegador</string>
+    <string name="menu_reload">Recarregar</string>
+    <string name="menu_go_forward">Endavant</string>
+    <string name="menu_go_back">Endarrere</string>
+
+    <!-- Contact-->
+    <string name="contact_telephone">Telèfon:</string>
+    <string name="contact_address">Adreça:</string>
+    <string name="contact_mail">Correu:</string>
+    <string name="contact_secretary_schedules">Matins: \nde dilluns a divendres de 10.00 a 13.30h. \nTardes: \ndimarts i dimecres de 15.00 a 16.30h.</string>
+
+    <!-- Settings -->
+    <string name="settings_info">Informació</string>
+    <string name="settings_libraries">Llibreries</string>
+    <string name="settings_changelog">Registre de canvis</string>
+    <string name="settings_rate_app">Valora L\'aplicació</string>
+    <string name="settings_developer">Desenvolupador</string>
+    <string name="settings_summary_developer">© 2015, Marc Pacheco García</string>
+    <string name="settings_version">Versió</string>
+    <string name="settings_enjoy_the_app">Disfruta L\'aplicació!</string>
+    <string name="settings_general">General</string>
+    <string name="settings_totally_memory_cache_used">Memòria cau utilitzada</string>
+    <string name="settings_delete_cache">Elimina la memòria cau</string>
+    <string name="settings_enable_photos_cache">Activar la memòria cau</string>
+    <string name="settings_cache_enabled_summary">Les fotos es desaràn a la memòria cau</string>
+    <string name="settings_cache_disabled_summary">Les fotos no es desaràn a la memòria cau</string>
+    <string name="settings_cache_memory_used_summary">utilitzats.</string>
+    <string name="settings_open_source_code">Open Source!</string>
+    <string name="settings_open_source_code_summary">Pots trobar el codi de l\'app al meu repositori de GitHub: https://github.com/marc97/InsMarina</string>
+
+    <!-- AppRater -->
+    <string name="app_rater_positive_button">Valora L\'App!</string>
+    <string name="app_rater_negative_button">No, gràcies</string>
+    <string name="app_rater_neutral_button">Més tard</string>
+    <string name="app_rater_message"></string>
+    <string name="app_rater_title">Valora L\'aplicació</string>
+
+    <!-- Alert Dialogs -->
+    <string name="alert_dialog_accept">Acceptar</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+
+    <!-- Toasts -->
+    <string name="toast_cache_deleted">Memòria cau esborrada.</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Map</string>
+
+</resources>

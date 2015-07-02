@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@android:color/white">
+
+    <fragment
+        android:id="@+id/fragment_contact_map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/PrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_primary"
+                android:textSize="20sp"
+                android:text="Adreça"
+                app:typeface="@string/font_normal"/>
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/SecondaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                app:typeface="@string/font_normal"
+                android:text="C/ Estació s/n  08120 La Llagosta (Barcelona)" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/PrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="@string/font_normal"
+                android:text="Telèfon" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/SecondaryText"
+                android:id="@+id/txv_fragment_contact_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                app:typeface="@string/font_normal" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/PrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="@string/font_normal"
+                android:text="Correu" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/SecondaryText"
+                android:id="@+id/txv_fragment_contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="@string/font_normal"
+                android:layout_marginBottom="6dp" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/PrimaryText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="@string/font_normal"
+                android:text="Horari de secretaria" />
+
+            <cat.institutmarina.insmarina.ui.widget.TypefacedTextView
+                style="@style/SecondaryText"
+                android:text="@string/contact_secretary_schedules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:typeface="@string/font_normal"
+                android:layout_marginBottom="6dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

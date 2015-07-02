@@ -1,0 +1,202 @@
+{
+    "items": [
+        {
+            "title": "Centre",
+            "url": "",
+            "items": [
+                {
+                    "title": "Història",
+                    "url": "http://www.institutmarina.cat/centre/historia"
+                },
+                {
+                    "title": "Localització",
+                    "url": "http://www.institutmarina.cat/centre/localitzacio"
+                },
+                {
+                    "title": "Instal·lacions",
+                    "url": "http://www.institutmarina.cat/centre/instal-lacions"
+                },
+                {
+                    "title": "Organització",
+                    "items": [
+                        {
+                            "title": "Equip Directiu",
+                            "url": "http://www.institutmarina.cat/centre/organitzacio/equip-directiu"
+                        },
+                        {
+                            "title": "Consell Escolar",
+                            "url": "http://www.institutmarina.cat/centre/organitzacio/consell-escolar"
+                        }
+                    ]
+                },
+                {
+                	"title": "Departaments",
+                	"url": "http://www.institutmarina.cat/centre/departaments-marina"
+                }
+            ]
+            
+        },
+        {
+            "title": "Estudis",
+            "items": [
+                {
+                    "title": "ESO",
+                    "url": "http://institutmarina.cat/estudis/eso"
+                },
+                {
+                    "title": "Batxillerat",
+                    "url": "http://institutmarina.cat/estudis/batxillerat"
+                },
+                {
+                    "title": "Cicles formatius",
+                    "items": [
+                        {
+                            "title": "GM Gestió Administrativa",
+                            "url": "http://institutmarina.cat/estudis/cicles-formatius/gestio-administrativa-cfgm"
+                        },
+                        {
+                            "title": "Instal·lacions de telecomunicacions",
+                            "url": "http://institutmarina.cat/estudis/cicles-formatius/instal-lacions-de-telecomunicacions-cfgm"
+                        },
+                        {
+                            "title": "GS Administració i finançes",
+                            "url": "http://institutmarina.cat/estudis/cicles-formatius/administracio-i-finances-cgfs"
+                        },
+                        {
+                            "title": "GS Manteniment Electrònic - Equips d'Electromedicina",
+                            "url": "http://institutmarina.cat/estudis/cicles-formatius/manteniment-electronic-equips-d-electromedicina-cfgs"
+                        }
+                    ]
+                },
+                {
+                    "title": "PFI",
+                    "url": "http://institutmarina.cat/estudis/fiap"
+                }, 
+                {
+                    "title": "CAS",
+                    "url": "http://institutmarina.cat/estudis/cas"
+                }
+            ]
+        },
+        {
+        	"title": "Secretaria",
+            "items": [
+               {
+                    "title": "Horari d'atenció",
+                    "url": "http://institutmarina.cat/secretaria/horari-d-atencio"
+               },
+               {
+                    "title": "Preinscripció",
+                    "url": "http://institutmarina.cat/secretaria/preinscripcio"
+               },
+               {
+                    "title": "Matricula",
+                    "url": "http://institutmarina.cat/secretaria/matricula"
+               },
+               {
+                    "title": "Beques",
+                    "url": "http://institutmarina.cat/secretaria/beques"
+               },
+               {
+                    "title": "Proves d'accés a cicles formatius",
+                    "url": "http://institutmarina.cat/secretaria/proves-d-acces-als-cicles-formatius"
+               },
+               {
+                    "title": "Tramits",
+                    "url": "http://institutmarina.cat/secretaria/tramits"
+               }
+            ]
+        },
+        {
+        	"title": "Informació a un click",
+            "items": [
+                {
+                    "title": "Calendari",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/calendari"
+                },
+                {
+                    "title": "Horari dels grups",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/horaris-dels-grups"
+               },
+                {
+                    "title": "Llistat de tutors i grups",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/llistat-de-tutors-i-grups"
+               },
+                {
+                    "title": "Horari d'atenció pares i mares",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/horari-d-atencio-pares-i-mares"
+               },
+                {
+                    "title": "Faltes d'assitència",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/faltes-d-assistencia"
+               },
+                {
+                    "title": "Proves de recuperació: Setembre",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/proves-de-recuperacio-setembre"
+               },
+                {
+                    "title": "Llibres de text",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/llibres-de-text"
+               },
+                {
+                    "title": "Biblioteca",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/biblioteca"
+               },
+               {
+                    "title": "Mediació",
+                    "url": "http://institutmarina.cat/informacio-a-un-clic/mediacio"
+               }
+            ]
+        },
+        {
+        	"title": "Activitats",
+            "items": [
+                {
+                    "title": "Sortides escolars",
+                    "url": "http://institutmarina.cat/activitats/sortides-escolars"
+                },
+                {
+                    "title": "Projecte COMENIUS",
+                    "url": "http://institutmarina.cat/activitats/projecte-comenius"
+                },
+                {
+                    "title": "Esport escolar",
+                    "url": "http://institutmarina.cat/activitats/esport-escolar"
+                },
+                {
+                    "title": "Revista Aniram",
+                    "url": "http://institutmarina.cat/activitats/revista-aniram"
+                },
+                {
+                    "title": "Activitats complementàries",
+                    "url": "http://institutmarina.cat/activitats/activitats-complementaries"
+                },
+                {
+                    "title": "Espai de jocs",
+                    "url": "http://institutmarina.cat/activitats/espai-de-jocs"
+                },
+                {
+                    "title": "Jove, salut i escola",
+                    "url": "http://institutmarina.cat/activitats/jove-salut-i-escola"
+                },
+                {
+                    "title": "Teatre",
+                    "url": "http://institutmarina.cat/activitats/teatre"
+                }
+            ]
+        },
+        {
+        	"title": "Blocs del professorat",
+            "url": "http://institutmarina.cat/blocs-del-professorat"
+        },
+        {
+        	"title": "Our school",
+            "items": [
+                {
+                   "title": "English...",
+                    "url": "http://institutmarina.cat/our-school/english"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pageLoading="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cat.institutmarina.insmarina.ui.widget.PageLoading
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/page_loading"
+        android:background="@android:color/black"
+        pageLoading:page_loading_layout="@layout/page_loading"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imv_page_picasa_photo"
+        android:layout_gravity="center_horizontal" />
+
+</FrameLayout>

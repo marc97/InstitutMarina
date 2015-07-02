@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <cat.institutmarina.insmarina.ui.widget.PageLoading
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/page_loading"
+        app:page_loading_layout="@layout/page_loading"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_layout">
+
+    <GridView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:columnWidth="110dp"
+        android:listSelector="@drawable/selector_item_albums_grid"
+        android:drawSelectorOnTop="true"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:paddingTop="@dimen/fragment_default_top_padding"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:clipToPadding="false"
+        android:id="@+id/grd_picasa_photos" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>
